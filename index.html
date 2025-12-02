@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>SHINOBI</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="#!" class="header__logo"><img src="./images/icons/logo.svg" alt="logo" /></a>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item"><a href="#warrior" class="header__link">О проекте</a></li>
+              <li class="header__item"><a href="#strategy" class="header__link">О стратегии</a></li>
+              <li class="header__item"><a href="#price" class="header__link">Цены и условия</a></li>
+              <li class="header__item"><a href="#tests" class="header__link">Результаты</a></li>
+              <li class="header__item"> <button class="header__button js-open-form" type="button">Личный кабинет</button> </li>
+            </ul>
+            <button class="header__burger" type="button" aria-label="open menu"><span></span></button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title"><span class="--accent">shinobi</span>-ВАША стратегия без ограничений</h1>
+            <h2 class="hero__text">СТРАТЕГИЯ. ИНДИКАТОРЫ. АВТОТРЕЙДИНГ.</h2>
+            <div class="hero__span --accent">*БЕЗ комиссий за сделки</div>
+            <button class="button js-open-form" type="button">РЕГИСТРАЦИЯ</button>
+            <a href="#personal" class="scroll-next-section for-mobile"
+              ><img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="personal" id="personal">
+        <div class="container">
+          <div class="personal__content">
+            <div class="personal__heading">
+              <h2 class="personal__title">shinobi</h2>
+              <h3 class="personal__span">ЛИЧНЫЙ РАЗВЕДЧИК В МИРЕ КРИПТЫ</h3>
+            </div>
+            <div class="personal__info">
+              <div class="personal__box">
+                <div class="personal__box-role">ОН</div>
+                <div class="personal__box-arrow"><img src="./images/icons/personal-arrow.svg" alt="arrow-down" /></div>
+                <div class="personal__box-span">АНАЛИЗИРУЕТ</div>
+              </div>
+              <div class="personal__box">
+                <div class="personal__box-role">ВЫ</div>
+                <div class="personal__box-arrow"><img src="./images/icons/personal-arrow.svg" alt="arrow-down" /></div>
+                <div class="personal__box-span">ПРИНИМАЕТЕ РЕШЕНИЕ</div>
+              </div>
+            </div>
+            <button class="button js-open-form for-mobile" type="button">РЕГИСТРАЦИЯ</button>
+            <a href="#warrior" class="scroll-next-section for-mobile"><img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="warrior" id="warrior">
+        <div class="container-left">
+          <div class="warrior__bg"></div>
+          <div class="warrior__content">
+            <h2 class="warrior__title">shinobi</h2>
+            <ul class="warrior__list">
+              <li class="warrior__item">
+                <p class="warrior__text">
+                  Торговая стратегия,
+                  <span>
+                    которая работает <br />
+                    24/7 и 365 дней в году.
+                  </span>
+                </p>
+                <span class="warrior__arrow"><img src="./images/icons/warrior-arrow.svg" alt="arrow" /></span>
+              </li>
+              <li class="warrior__item">
+                <p class="warrior__text">
+                  Создано крипто-комьюнити из <span>147 трейдеров</span>. В основе стратегии — технический анализ, подкрепленный искусственным
+                  интеллектом.
+                </p>
+                <span class="warrior__arrow"><img src="./images/icons/warrior-arrow.svg" alt="arrow" /></span>
+              </li>
+              <li class="warrior__item">
+                <p class="warrior__text">
+                  <span>Главное — безопасность и скорость.</span> Поэтому подключение через API без доступа к вводу/ выводу ваших средств.
+                </p>
+                <span class="warrior__arrow"><img src="./images/icons/warrior-arrow.svg" alt="arrow" /></span>
+              </li>
+              <li class="warrior__item">
+                <p class="warrior__text">
+                  <span>Подключение к Binance</span> через <br />
+                  собственные серверы.
+                </p>
+                <span class="warrior__arrow"><img src="./images/icons/warrior-arrow.svg" alt="arrow" /></span>
+              </li>
+            </ul>
+          </div>
+          <a href="#work" class="scroll-next-section for-mobile"><img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="work__content">
+          <div class="container">
+            <h2 class="work__title">КАК ЭТО <span>РАБОТАЕТ?</span></h2>
+          </div>
+          <ul class="work__list">
+            <li class="work__item">
+              <span class="work__item-number active">1</span>
+              <p class="work__item-text first"><span>Регистрируйтесь</span> на нашем сайте.</p>
+            </li>
+            <li class="work__item">
+              <span class="work__item-number">2</span>
+              <p class="work__item-text "><span>Подключайте</span> Binance к терминалу.</p>
+            </li>
+            <li class="work__item">
+              <span class="work__item-number">3</span>
+              <p class="work__item-text">
+                <span>Откройте доступ по API</span> (кроме - ввод / вывод средств - маржинальный займ - универсальные операции) Так ваши деньги будут
+                в безопасности.
+              </p>
+            </li>
+            <li class="work__item">
+              <span class="work__item-number">4</span>
+              <p class="work__item-text "><span>Оплатите</span> подписку в личном кабинете.</p>
+            </li>
+            <li class="work__item">
+              <span class="work__item-number">5</span>
+              <p class="work__item-text "><span>Запускайте </span>стратегию и зарабатывайте.</p>
+            </li>
+          </ul>
+          <a href="#make" class="scroll-next-section for-mobile"><img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+        </div>
+      </section>
+
+      <section class="make" id="make">
+        <div class="make__runnign-line">
+          <div class="make__running-inner">
+            <div class="make__running-block">
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item for-pc">shinobi</div>
+              <div class="make__running-item for-pc">shinobi</div>
+            </div>
+            <div class="make__running-block">
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item for-pc">shinobi</div>
+              <div class="make__running-item for-pc">shinobi</div>
+            </div>
+          </div>
+        </div>
+        <div class="make__content">
+          <div class="container">
+            <div class="make__inner">
+              <div class="make__box">
+                <h3 class="make__box-label --accent">Делайте</h3>
+                <h2 class="make__box-name">ДЕНЬГИ</h2>
+              </div>
+              <div class="make__box">
+                <h3 class="make__box-label --accent">А не</h3>
+                <h2 class="make__box-name">ГРАФИКИ</h2>
+              </div>
+            </div>
+            <button class="button js-open-form" type="button">РЕГИСТРАЦИЯ</button>
+            <a href="#can" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="can" id="can">
+        <div class="container">
+          <h2 class="can__title"> ЧТО УМЕЕТ <span>SHINOBI?</span> </h2>
+          <div class="can__spoiler --accent">*СПОЙЛЕР-он умеет все</div>
+        </div>
+        <div class="can__content">
+          <div class="can__line">
+            <div class="container">
+              <ul class="can__line-content">
+                <li class="can__line-item">Работает с топ-30 торговых пар</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Объединение в одну: DCA/ GRID/ Combo стратегий</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Автоматические Take profit/ Stop loss</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Поддержка скальпинга</li>
+              </ul>
+            </div>
+          </div>
+          <div class="can__line">
+            <div class="container">
+              <ul class="can__line-content">
+                <li class="can__line-item">Работа с фьючерсами</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Технический анализ на основе AI</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Работа в Long/ Short</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Учет спредов и проскальзывания</li>
+              </ul>
+            </div>
+          </div>
+          <div class="can__line">
+            <div class="container">
+              <ul class="can__line-content">
+                <li class="can__line-item">Настройка сигналов на запуски из сторонних источников</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Работа на любом устройстве: desktop, mobile, tablet</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Отправка алертов на почту в приложении или Web Hook</li>
+                <li class="can__separator"></li>
+                <li class="can__line-item">Динамические трейлинг-стопы</li>
+              </ul>
+            </div>
+          </div>
+          <a href="#strategy" class="scroll-next-section"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+        </div>
+      </section>
+
+      <section class="strategy" id="strategy">
+        <div class="container">
+          <div class="strategy__content">
+            <div class="strategy__box">
+              <h2 class="strategy__title"><span class="--accent">ТРИ</span> фазы рынка</h2>
+              <p class="strategy__text">Для SHINOBI нет разницы какой тренд сейчас преобладает <span>медвежий, бычий, боковой</span></p>
+            </div>
+            <div class="strategy__box reversed">
+              <h2 class="strategy__title reversed"><span class="--accent">ОДНА</span> СТРАТЕГИЯ</h2>
+              <p class="strategy__text reversed">и да, это всё <span>входит в стоимость подписки, без скрытых доплат</span></p>
+            </div>
+            <div class="strategy__box-last">
+              <div class="strategy__arrow"><img src="./images/icons/stategy-arrow.svg" alt="stategy-arrow" /></div>
+              <button class="strategy__button" type="button">РЕГИСТРАЦИЯ</button>
+            </div>
+          </div>
+          <a href="#fit" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+        </div>
+      </section>
+
+      <section class="fit" id="fit">
+        <div class="container">
+          <div class="fit__content">
+            <h2 class="fit__title">КОМУ ПОДОЙДЕТ <span>SHINOBI?</span></h2>
+            <div class="fit__info">
+              <div class="fit__box">
+                <div class="fit__box-icon"><img src="./images/icons/fit-freshman-icon.svg" alt="fit-freshman-icon" /></div>
+                <h3 class="fit__box-title">НОВИЧКАМ</h3>
+                <p class="fit__box-description"
+                  >Дает возможность полной автоматизации процессов, без необходимости постоянного анализа рыночной ситуации
+                </p>
+              </div>
+              <div class="fit__box">
+                <div class="fit__box-icon"><img src="./images/icons/fit-profecional-icon.svg" alt="fit-profecional-icon" /></div>
+                <h3 class="fit__box-title">ПРОФЕССИОНАЛАМ</h3>
+                <p class="fit__box-description">
+                  Дает возможность детальных и ювелирных ручных настроек по каждому параметру и упрощает процесс анализа сделок
+                </p>
+              </div>
+            </div>
+            <a href="#ideal" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ideal" id="ideal">
+        <div class="container">
+          <div class="ideal__content">
+            <h3 class="ideal__text">КАЖЕТСЯ, ЧТО ВСЕ ИДЕАЛЬНО...</h3>
+            <h3 class="ideal__text-incorrect --accent">НО ЧТО НЕ ТАК?</h3>
+            <h2 class="ideal__title">shinobi</h2>
+            <p class="ideal__description">
+              <span>
+                <span class="opacity">Так уж и быть, скажем.</span> Shinobi — досталось по жизни. Как и любой боец, он имеет шрамы. Наш шрам это
+                дизайн интерфейса.
+              </span>
+              <span class="label --accent">но мы работаем над этим</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="result" id="result">
+        <div class="container">
+          <div class="result__content">
+            <div class="result__round">
+              <div class="result__round-inner">
+                <span class="result__text">для нас главное</span>
+                <h2 class="result__title">РЕЗУЛЬТАТ</h2>
+              </div>
+            </div>
+            <p class="result__description">Показывать стабильный среднемесячный профит от <span>30%</span> до <span>90%</span> в месяц</p>
+            <button class="button js-open-form" type="button">РЕГИСТРАЦИЯ</button>
+          </div>
+        </div>
+        <div class="make__runnign-line result for-mobile">
+          <div class="make__running-inner">
+            <div class="make__running-block">
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+            </div>
+            <div class="make__running-block">
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+              <div class="make__running-item">shinobi</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tests" id="tests">
+        <div class="tests__content">
+          <div class="container"><h2 class="tests__title">РЕЗУЛЬТАТЫ БЭК-ТЕСТОВ:</h2></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/1.webp" alt="test 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/2.webp" alt="test 2" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/3.webp" alt="test 3" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/4.webp" alt="test 4" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/1.webp" alt="test 1" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/2.webp" alt="test 2" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/3.webp" alt="test 3" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="tests__item">
+                  <img src="./images/tests/4.webp" alt="test 4" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#price" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+        </div>
+      </section>
+
+      <section class="price" id="price">
+        <div class="container">
+          <div class="price__content">
+            <h2 class="price__title"> КАКИЕ <span>ЦЕНЫ И УСЛОВИЯ?</span> </h2>
+            <p class="price__text">
+              <span>Все очень просто-</span> платите за подписку и пользуйтесь в удовольствие. <span>Никаких скрытых условий и платежей.</span>
+            </p>
+            <div class="price__box">
+              <div class="price__box-inner">
+                <h3 class="price__box-title --accent"> ЕДИНЫЙ ТАРИФ</h3>
+                <ul class="price__box-list">
+                  <li class="price__box-item">доступ к программному обеспечению с телефона и компьютера</li>
+                  <li class="price__box-item">доступ к боту</li>
+                  <li class="price__box-item">доступ к закрытому Телеграм-чату</li>
+                  <li class="price__box-item">доступ к стратегиям с возможностью редактирования и ведения сделок вручную</li>
+                  <li class="price__box-item">доступ к автоматизированным стратегиям</li>
+                  <li class="price__box-item">без комиссий за сделки</li>
+                </ul>
+                <span class="price__label --accent">СКИДКА -50% НА ПЕРВЫЙ МЕСЯЦ</span>
+                <div class="price__old">50$/день</div>
+                <div class="price__new">25$/день</div>
+                <div class="price__full">*полная сумма при оплате за месяц = 750$</div>
+              </div>
+            </div>
+            <button class="button js-open-form for-mobile" type="button">РЕГИСТРАЦИЯ</button>
+            <a href="#ready" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready" id="ready">
+        <div class="container">
+          <div class="ready__content">
+            <h2 class="ready__title">ЕЩЕ НЕ ГОТОВЫ?</h2>
+            <p class="ready__text">Смотрите прямую трансляцию наших торгов:</p>
+            <div class="ready__video">
+              <div></div>
+            </div>
+            <a href="#earn" class="scroll-next-section for-mobile"> <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section" /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="earn" id="earn">
+        <div class="container">
+          <div class="earn__content">
+            <h2 class="earn__title">ЗАРАБАТЫВАЙТЕ С <span>CANDLESTORM</span></h2>
+            <ul class="earn__list">
+              <li class="earn__item">
+                <div class="earn__item-icon">
+                  <img src="./images/icons/earn/monitor.svg" alt="monitor icon" />
+                </div>
+                <p class="earn__item-text">Регистрируйтесь у нас на сайте</p>
+              </li>
+              <li class="earn__item">
+                <div class="earn__item-icon">
+                  <img src="./images/icons/earn/link.svg" alt="link icon" />
+                </div>
+                <p class="earn__item-text">В личном кабинете скопируйте промокод или реферальную ссылку</p>
+              </li>
+              <li class="earn__item">
+                <div class="earn__item-icon">
+                  <img src="./images/icons/earn/users.svg" alt="users icon" />
+                </div>
+                <p class="earn__item-text">Приводите друзей, создавайте рекламу, пишите о нас в соц сетях</p>
+              </li>
+              <li class="earn__item">
+                <div class="earn__item-icon">
+                  <img src="./images/icons/earn/user-plus.svg" alt="user-plus icon" />
+                </div>
+                <p class="earn__item-text">Мы поделимся прибылью с вами по условиям Revenue Share с каждого приведенного вами клиента</p>
+              </li>
+              <li class="earn__item">
+                <div class="earn__item-icon">
+                  <img src="./images/icons/earn/percent.svg" alt="percent icon" />
+                </div>
+                <p class="earn__item-text">
+                  Вы будете получать до 50% от каждой подписки столько времени, сколько с нами будет оставаться ваш друг
+                </p>
+              </li>
+              <li class="earn__item center for-mobile">
+                <div class="earn__item-icon">
+                  <button class="button js-open-form" type="button">РЕГИСТРАЦИЯ</button>
+                </div>
+              </li>
+            </ul>
+            <a href="#disclaimer" class="scroll-next-section for-mobile">
+              <img src="./images/icons/arrow-next-section.svg" alt="arrow-next-section"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <blockquote class="disclaimer" id="disclaimer">
+        <div class="container">
+          <div class="disclaimer__content">
+            <h2 class="disclaimer__title">ДИСКЛЕЙМЕР</h2>
+            <p class="disclaimer__text">
+              SHINOBI — is not a financial advisor. Any suggestions or recommendations by our support team should therefore never be interpreted as
+              financial advice. Сandlestorm is not liable/responsible for losses in any way and it is the user’s sole responsibility to make personal
+              investment/trading decisions. All tools, templates, strategies provided are to be used with caution and expertise. All strategies are
+              regularly backtested, but as markets change, so can the results. Past performance does not guarantee future succes.
+            </p>
+          </div>
+        </div>
+      </blockquote>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__location">
+              <address class="footer__address">
+                <p class="footer__address-text">Bitsgap Holding OU, 2022.</p>
+                <p class="footer__address-text">Luminori maja Liiavalia 45</p>
+                <p class="footer__address-text">10145, Tallinn, Estonia (Эстония)</p>
+              </address>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Telegram">Telegram</a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="YouTube">YouTube</a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Facebook">Facebook</a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Twitter">Twitter</a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#" class="footer__social-link" aria-label="Discord">Discord</a>
+                </li>
+              </ul>
+
+              <div class="footer__scroll-to-top for-mobile">
+                <img src="./images/icons/arrow-next-section.svg" alt="scroll to top" />
+              </div>
+            </div>
+
+            <nav class="footer__nav">
+              <div class="footer__menu">
+                <h3 class="footer__title">Платформа</h3>
+                <ul class="footer__list">
+                  <li class="footer__item"><a href="#" class="footer__link">Торговые боты</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">GRID-бот</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">DSA-бот</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">COMBO-бот</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">SMART-торговля</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Демотрейдинг</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Цены</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__menu">
+                <h3 class="footer__title">Компания</h3>
+                <ul class="footer__list">
+                  <li class="footer__item"><a href="#" class="footer__link">О нас</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Безопасность</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Партнерская программа</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Конкурс для партнеров</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__menu">
+                <h3 class="footer__title">Ресурсы</h3>
+                <ul class="footer__list">
+                  <li class="footer__item"><a href="#" class="footer__link">Блог</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">База знаний</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Биржи</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__menu long">
+                <h3 class="footer__title">Юридическая информация</h3>
+                <ul class="footer__list">
+                  <li class="footer__item"><a href="#" class="footer__link">Условия использования</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Политика возврата</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Политика по файлам cookie</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Партнерская политика</a></li>
+                  <li class="footer__item"><a href="#" class="footer__link">Настройки файлов cookie</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </footer>
+
+      <div class="modal" id="formModal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__window">
+          <button class="modal__close">&times;</button>
+
+          <h2 class="modal__title">Заповніть форму</h2>
+
+          <form class="modal__form">
+            <label class="modal__label">
+              <span>Ім’я</span>
+              <input type="text" name="first_name" required />
+            </label>
+
+            <label class="modal__label">
+              <span>Прізвище</span>
+              <input type="text" name="last_name" required />
+            </label>
+
+            <label class="modal__label">
+              <span>Номер телефону</span>
+              <input type="tel" name="phone" required />
+            </label>
+
+            <label class="modal__label">
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+
+            <button type="submit" class="modal__submit">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
